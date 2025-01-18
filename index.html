@@ -52,13 +52,13 @@
 </head>
 <body>
   <div class="container">
-    <h1>🎉 ¡Estás invitado a nuestra fiesta dinámica! 🎉</h1>
+    <h1>🎉 ¡EFREN TE QUIERE EN SU FIESTA DINAMICA! 🎉</h1>
     <video id="invitationVideo" autoplay loop muted playsinline>
       <source src="ruta_de_tu_video.mp4" type="video/mp4">
       Tu navegador no soporta videos HTML5.
     </video>
     <div id="countdown">Cargando cuenta regresiva...</div>
-    <button class="btn" onclick="addAddress()">📍 Agregar Dirección</button>
+    <a class="btn" href="https://maps.app.goo.gl/PpxnqZ5fNDksWkxz6" target="_blank">📍 Ver Dirección en Maps</a>
   </div>
 
   <script>
@@ -85,12 +85,6 @@
     }
 
     const interval = setInterval(updateCountdown, 1000);
-
-    // Función para agregar dirección
-    function addAddress() {
-      const address = prompt("Ingresa la dirección:");
-      if (address) alert(`Dirección agregada: ${address}`);
-    }
   </script>
 </body>
 </html>
